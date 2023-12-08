@@ -1,0 +1,19 @@
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "username":"yusuf",
+    "email":"yusufindian8@gmail.com",
+    "password":"yusuf"
+}
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "usernameOrEmail":"yusufindian8@gmail.com",
+    "password":"yusuf"
+  
+}
