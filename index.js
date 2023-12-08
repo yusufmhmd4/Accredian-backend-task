@@ -6,8 +6,7 @@ const { open } = require("sqlite");
 const sqlite3 = require("sqlite3");
 const bcrypt = require("bcrypt");
 const {v4} =require("uuid")
-const cors=require("cors")
-app.use(cors())
+
 const databasePath = path.join(__dirname, "users.sql");
 app.use(express.json());
 
